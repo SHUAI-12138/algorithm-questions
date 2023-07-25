@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "jbenden.c-cpp-flylint",
+        "ms-vscode.cpptools-extension-pack",
+        "hars.cppsnippets",
+        "ms-vscode.cpptools-themes"
+    ]
+}

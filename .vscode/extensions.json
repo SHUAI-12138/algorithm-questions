@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "vscjava.vscode-maven",
+        "ms-vscode.cpptools"
+    ]
+}
