@@ -4,7 +4,7 @@
         "vscjava.vscode-java-dependency",
         "vscjava.vscode-java-test",
         "redhat.java",
-        "vscjava.vscode-java-pack",
-        "visualstudioexptteam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
+        "vscjava.vscode-java-pack"
     ]
 }
