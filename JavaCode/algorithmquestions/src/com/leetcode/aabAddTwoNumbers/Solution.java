@@ -1,3 +1,5 @@
+package com.leetcode.aabAddTwoNumbers;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -21,9 +23,9 @@ public class Solution {
         l1.pushListNode(l1, 3);
         l2.pushListNode(l2, 6);
         l2.pushListNode(l2, 4);
-        l1.printListNode(l1);
-        // Solution solution = new Solution();
-        // solution.addTwoNumbers(l1, l2).printListNode();
+        Solution solution = new Solution();
+        ListNode ret = solution.addTwoNumbers(l1, l2);
+        ret.printListNode(ret);
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -64,7 +66,7 @@ class ListNode {
         this.next = next;
     }
 
-    void pushListNode(ListNode head, int val) {
+    public void pushListNode(ListNode head, int val) {
         if (head == null) {
             head = new ListNode(val, null);
             return;
@@ -76,10 +78,10 @@ class ListNode {
         p.next = new ListNode(val, null);
     }
 
-    void printListNode(ListNode head) {
+    public void printListNode(ListNode head) {
         ListNode p = head;
         while (true) {
-            System.out.print(this.val);
+            System.out.print(p.val);
             if (p.next == null) {
                 break;
             }
