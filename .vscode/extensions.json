@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "vscjava.vscode-maven",
-        "ms-vscode.cpptools"
+        "ms-vscode.cpptools",
+        "formulahendry.code-runner"
     ]
 }

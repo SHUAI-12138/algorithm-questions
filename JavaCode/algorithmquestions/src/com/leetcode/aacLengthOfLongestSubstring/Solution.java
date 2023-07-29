@@ -28,7 +28,7 @@ public class Solution {
             }
             map.put(s.charAt(i), i);
             num++;
-            longest = longest < num ? num : longest;
+            longest = Math.max(longest, num);
         }
 
         return longest;

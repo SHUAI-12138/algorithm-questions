@@ -5,12 +5,11 @@ import java.util.HashMap;
 public class Solution {
     public static void main(String[] args) {
         int[] nums1 = { 2, 7, 11, 15 };
-        Solution twosum = new Solution();
-        int[] output = twosum.twoSum(nums1, 9);
+        int[] output = Solution.twoSum(nums1, 9);
         System.out.println("[" + output[0] + ", " + output[1] + "]");
     }
 
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
         // 边添加map，边查找
