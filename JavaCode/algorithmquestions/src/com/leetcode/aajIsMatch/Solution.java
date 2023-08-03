@@ -41,6 +41,8 @@ public class Solution {
                     } else {
                         dp[i][j] = dp[i][j - 2] || dp[i - 1][j];
                     }
+                    // 上面代码与该行代码等价
+                    // dp[i][j] = dp[i][j - 2] || ((s.charAt(i - 1) == p.charAt(j - 2) || p.charAt(j - 2) == '.') && dp[i - 1][j]);
                 }
 
             }
