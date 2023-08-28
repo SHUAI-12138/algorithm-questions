@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// 字符串相乘
 class Solution {
 public:
     string multiply(string num1, string num2) {
